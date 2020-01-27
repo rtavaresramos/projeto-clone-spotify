@@ -84,12 +84,14 @@ color: #9bf0e1;
 .rotated {
     transform: rotate(30deg); /* Equal to rotateZ(45deg) */
     padding-left: 40px;
-    margin-left: 34px;
+    margin-left: 30px;
     overflow: hidden;
     
   }
 .rotated img{
-    width: 300px; 
+    position: relative;
+    width: 240px; 
+    overflow: hidden;
   }
   
 footer {
