@@ -1,5 +1,6 @@
 html,body, #home {
     height: 100%;
+    overflow-x: hidden;
 }
 body{
     background: url(../imgs/capa.png),
@@ -82,16 +83,18 @@ color: #9bf0e1;
     color: #9bf0e1;
 }
 .rotated {
-    transform: rotate(30deg); /* Equal to rotateZ(45deg) */
     padding-left: 40px;
     margin-left: 30px;
-    overflow: hidden;
+    -ms-transforme: rotate(30deg);
+    -webkit-transform: rotate(30deg);
+    transform: rotate(30deg); /* Equal to rotateZ(45deg) */
+    
     
   }
 .rotated img{
     position: relative;
     width: 240px; 
-    overflow: hidden;
+    
   }
   
 footer {
